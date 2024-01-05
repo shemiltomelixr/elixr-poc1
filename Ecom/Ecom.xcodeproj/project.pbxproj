@@ -7,66 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CAAE710F2B47F0E600FCA756 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE710E2B47F0E600FCA756 /* AppDelegate.swift */; };
-		CAAE71112B47F0E600FCA756 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE71102B47F0E600FCA756 /* SceneDelegate.swift */; };
-		CAAE71132B47F0E600FCA756 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE71122B47F0E600FCA756 /* ViewController.swift */; };
-		CAAE71162B47F0E600FCA756 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAE71142B47F0E600FCA756 /* Main.storyboard */; };
-		CAAE71182B47F0E700FCA756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAE71172B47F0E700FCA756 /* Assets.xcassets */; };
-		CAAE711B2B47F0E700FCA756 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAE71192B47F0E700FCA756 /* LaunchScreen.storyboard */; };
-		CAAE71262B47F0E700FCA756 /* GoCart_poc1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE71252B47F0E700FCA756 /* GoCart_poc1Tests.swift */; };
-		CAAE71302B47F0E800FCA756 /* GoCart_poc1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE712F2B47F0E800FCA756 /* GoCart_poc1UITests.swift */; };
-		CAAE71322B47F0E800FCA756 /* GoCart_poc1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE71312B47F0E800FCA756 /* GoCart_poc1UITestsLaunchTests.swift */; };
+		CA0D3E172B406B2A004823C3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E162B406B2A004823C3 /* AppDelegate.swift */; };
+		CA0D3E192B406B2A004823C3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E182B406B2A004823C3 /* SceneDelegate.swift */; };
+		CA0D3E1E2B406B2A004823C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D3E1C2B406B2A004823C3 /* Main.storyboard */; };
+		CA0D3E202B406B2B004823C3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA0D3E1F2B406B2B004823C3 /* Assets.xcassets */; };
+		CA0D3E232B406B2B004823C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA0D3E212B406B2B004823C3 /* LaunchScreen.storyboard */; };
+		CA0D3E2E2B406B2B004823C3 /* EcomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E2D2B406B2B004823C3 /* EcomTests.swift */; };
+		CA0D3E382B406B2B004823C3 /* EcomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E372B406B2B004823C3 /* EcomUITests.swift */; };
+		CA0D3E3A2B406B2B004823C3 /* EcomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E392B406B2B004823C3 /* EcomUITestsLaunchTests.swift */; };
+		CA0D3E472B406BD0004823C3 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E462B406BD0004823C3 /* ProductModel.swift */; };
+		CA0D3E492B406BF5004823C3 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E482B406BF5004823C3 /* LoginPageViewController.swift */; };
+		CA0D3E4B2B406C20004823C3 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA0D3E4A2B406C20004823C3 /* ProductListViewController.swift */; };
+		CA9662172B411F1900932E7D /* AddProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9662162B411F1900932E7D /* AddProductsViewController.swift */; };
+		CA96621B2B41391C00932E7D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA96621A2B41391C00932E7D /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CAAE71222B47F0E700FCA756 /* PBXContainerItemProxy */ = {
+		CA0D3E2A2B406B2B004823C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CAAE71032B47F0E600FCA756 /* Project object */;
+			containerPortal = CA0D3E0B2B406B2A004823C3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CAAE710A2B47F0E600FCA756;
-			remoteInfo = "GoCart-poc1";
+			remoteGlobalIDString = CA0D3E122B406B2A004823C3;
+			remoteInfo = Ecom;
 		};
-		CAAE712C2B47F0E700FCA756 /* PBXContainerItemProxy */ = {
+		CA0D3E342B406B2B004823C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CAAE71032B47F0E600FCA756 /* Project object */;
+			containerPortal = CA0D3E0B2B406B2A004823C3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CAAE710A2B47F0E600FCA756;
-			remoteInfo = "GoCart-poc1";
+			remoteGlobalIDString = CA0D3E122B406B2A004823C3;
+			remoteInfo = Ecom;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CAAE710B2B47F0E600FCA756 /* GoCart-poc1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoCart-poc1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAAE710E2B47F0E600FCA756 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CAAE71102B47F0E600FCA756 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CAAE71122B47F0E600FCA756 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CAAE71152B47F0E600FCA756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CAAE71172B47F0E700FCA756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CAAE711A2B47F0E700FCA756 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		CAAE711C2B47F0E700FCA756 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CAAE71212B47F0E700FCA756 /* GoCart-poc1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoCart-poc1Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAAE71252B47F0E700FCA756 /* GoCart_poc1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCart_poc1Tests.swift; sourceTree = "<group>"; };
-		CAAE712B2B47F0E700FCA756 /* GoCart-poc1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoCart-poc1UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CAAE712F2B47F0E800FCA756 /* GoCart_poc1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCart_poc1UITests.swift; sourceTree = "<group>"; };
-		CAAE71312B47F0E800FCA756 /* GoCart_poc1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoCart_poc1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA0D3E132B406B2A004823C3 /* Ecom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ecom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0D3E162B406B2A004823C3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CA0D3E182B406B2A004823C3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CA0D3E1D2B406B2A004823C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA0D3E1F2B406B2B004823C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA0D3E222B406B2B004823C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA0D3E242B406B2B004823C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA0D3E292B406B2B004823C3 /* EcomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0D3E2D2B406B2B004823C3 /* EcomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomTests.swift; sourceTree = "<group>"; };
+		CA0D3E332B406B2B004823C3 /* EcomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EcomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0D3E372B406B2B004823C3 /* EcomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomUITests.swift; sourceTree = "<group>"; };
+		CA0D3E392B406B2B004823C3 /* EcomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA0D3E462B406BD0004823C3 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		CA0D3E482B406BF5004823C3 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		CA0D3E4A2B406C20004823C3 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		CA9662162B411F1900932E7D /* AddProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductsViewController.swift; sourceTree = "<group>"; };
+		CA96621A2B41391C00932E7D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CAAE71082B47F0E600FCA756 /* Frameworks */ = {
+		CA0D3E102B406B2A004823C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAE711E2B47F0E700FCA756 /* Frameworks */ = {
+		CA0D3E262B406B2B004823C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAE71282B47F0E700FCA756 /* Frameworks */ = {
+		CA0D3E302B406B2B004823C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +84,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CAAE71022B47F0E600FCA756 = {
+		CA0D3E0A2B406B2A004823C3 = {
 			isa = PBXGroup;
 			children = (
-				CAAE710D2B47F0E600FCA756 /* GoCart-poc1 */,
-				CAAE71242B47F0E700FCA756 /* GoCart-poc1Tests */,
-				CAAE712E2B47F0E800FCA756 /* GoCart-poc1UITests */,
-				CAAE710C2B47F0E600FCA756 /* Products */,
+				CA0D3E152B406B2A004823C3 /* Ecom */,
+				CA0D3E2C2B406B2B004823C3 /* EcomTests */,
+				CA0D3E362B406B2B004823C3 /* EcomUITests */,
+				CA0D3E142B406B2A004823C3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CAAE710C2B47F0E600FCA756 /* Products */ = {
+		CA0D3E142B406B2A004823C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CAAE710B2B47F0E600FCA756 /* GoCart-poc1.app */,
-				CAAE71212B47F0E700FCA756 /* GoCart-poc1Tests.xctest */,
-				CAAE712B2B47F0E700FCA756 /* GoCart-poc1UITests.xctest */,
+				CA0D3E132B406B2A004823C3 /* Ecom.app */,
+				CA0D3E292B406B2B004823C3 /* EcomTests.xctest */,
+				CA0D3E332B406B2B004823C3 /* EcomUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CAAE710D2B47F0E600FCA756 /* GoCart-poc1 */ = {
+		CA0D3E152B406B2A004823C3 /* Ecom */ = {
 			isa = PBXGroup;
 			children = (
-				CAAE710E2B47F0E600FCA756 /* AppDelegate.swift */,
-				CAAE71102B47F0E600FCA756 /* SceneDelegate.swift */,
-				CAAE71122B47F0E600FCA756 /* ViewController.swift */,
-				CAAE71142B47F0E600FCA756 /* Main.storyboard */,
-				CAAE71172B47F0E700FCA756 /* Assets.xcassets */,
-				CAAE71192B47F0E700FCA756 /* LaunchScreen.storyboard */,
-				CAAE711C2B47F0E700FCA756 /* Info.plist */,
+				CA0D3E162B406B2A004823C3 /* AppDelegate.swift */,
+				CA0D3E182B406B2A004823C3 /* SceneDelegate.swift */,
+				CA0D3E1C2B406B2A004823C3 /* Main.storyboard */,
+				CA0D3E1F2B406B2B004823C3 /* Assets.xcassets */,
+				CA0D3E212B406B2B004823C3 /* LaunchScreen.storyboard */,
+				CA0D3E462B406BD0004823C3 /* ProductModel.swift */,
+				CA0D3E242B406B2B004823C3 /* Info.plist */,
+				CA0D3E482B406BF5004823C3 /* LoginPageViewController.swift */,
+				CA0D3E4A2B406C20004823C3 /* ProductListViewController.swift */,
+				CA9662162B411F1900932E7D /* AddProductsViewController.swift */,
+				CA96621A2B41391C00932E7D /* ProductCell.swift */,
 			);
-			path = "GoCart-poc1";
+			path = Ecom;
 			sourceTree = "<group>";
 		};
-		CAAE71242B47F0E700FCA756 /* GoCart-poc1Tests */ = {
+		CA0D3E2C2B406B2B004823C3 /* EcomTests */ = {
 			isa = PBXGroup;
 			children = (
-				CAAE71252B47F0E700FCA756 /* GoCart_poc1Tests.swift */,
+				CA0D3E2D2B406B2B004823C3 /* EcomTests.swift */,
 			);
-			path = "GoCart-poc1Tests";
+			path = EcomTests;
 			sourceTree = "<group>";
 		};
-		CAAE712E2B47F0E800FCA756 /* GoCart-poc1UITests */ = {
+		CA0D3E362B406B2B004823C3 /* EcomUITests */ = {
 			isa = PBXGroup;
 			children = (
-				CAAE712F2B47F0E800FCA756 /* GoCart_poc1UITests.swift */,
-				CAAE71312B47F0E800FCA756 /* GoCart_poc1UITestsLaunchTests.swift */,
+				CA0D3E372B406B2B004823C3 /* EcomUITests.swift */,
+				CA0D3E392B406B2B004823C3 /* EcomUITestsLaunchTests.swift */,
 			);
-			path = "GoCart-poc1UITests";
+			path = EcomUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CAAE710A2B47F0E600FCA756 /* GoCart-poc1 */ = {
+		CA0D3E122B406B2A004823C3 /* Ecom */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAAE71352B47F0E800FCA756 /* Build configuration list for PBXNativeTarget "GoCart-poc1" */;
+			buildConfigurationList = CA0D3E3D2B406B2B004823C3 /* Build configuration list for PBXNativeTarget "Ecom" */;
 			buildPhases = (
-				CAAE71072B47F0E600FCA756 /* Sources */,
-				CAAE71082B47F0E600FCA756 /* Frameworks */,
-				CAAE71092B47F0E600FCA756 /* Resources */,
+				CA0D3E0F2B406B2A004823C3 /* Sources */,
+				CA0D3E102B406B2A004823C3 /* Frameworks */,
+				CA0D3E112B406B2A004823C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "GoCart-poc1";
-			productName = "GoCart-poc1";
-			productReference = CAAE710B2B47F0E600FCA756 /* GoCart-poc1.app */;
+			name = Ecom;
+			productName = Ecom;
+			productReference = CA0D3E132B406B2A004823C3 /* Ecom.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CAAE71202B47F0E700FCA756 /* GoCart-poc1Tests */ = {
+		CA0D3E282B406B2B004823C3 /* EcomTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAAE71382B47F0E800FCA756 /* Build configuration list for PBXNativeTarget "GoCart-poc1Tests" */;
+			buildConfigurationList = CA0D3E402B406B2B004823C3 /* Build configuration list for PBXNativeTarget "EcomTests" */;
 			buildPhases = (
-				CAAE711D2B47F0E700FCA756 /* Sources */,
-				CAAE711E2B47F0E700FCA756 /* Frameworks */,
-				CAAE711F2B47F0E700FCA756 /* Resources */,
+				CA0D3E252B406B2B004823C3 /* Sources */,
+				CA0D3E262B406B2B004823C3 /* Frameworks */,
+				CA0D3E272B406B2B004823C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAAE71232B47F0E700FCA756 /* PBXTargetDependency */,
+				CA0D3E2B2B406B2B004823C3 /* PBXTargetDependency */,
 			);
-			name = "GoCart-poc1Tests";
-			productName = "GoCart-poc1Tests";
-			productReference = CAAE71212B47F0E700FCA756 /* GoCart-poc1Tests.xctest */;
+			name = EcomTests;
+			productName = EcomTests;
+			productReference = CA0D3E292B406B2B004823C3 /* EcomTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CAAE712A2B47F0E700FCA756 /* GoCart-poc1UITests */ = {
+		CA0D3E322B406B2B004823C3 /* EcomUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CAAE713B2B47F0E800FCA756 /* Build configuration list for PBXNativeTarget "GoCart-poc1UITests" */;
+			buildConfigurationList = CA0D3E432B406B2B004823C3 /* Build configuration list for PBXNativeTarget "EcomUITests" */;
 			buildPhases = (
-				CAAE71272B47F0E700FCA756 /* Sources */,
-				CAAE71282B47F0E700FCA756 /* Frameworks */,
-				CAAE71292B47F0E700FCA756 /* Resources */,
+				CA0D3E2F2B406B2B004823C3 /* Sources */,
+				CA0D3E302B406B2B004823C3 /* Frameworks */,
+				CA0D3E312B406B2B004823C3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CAAE712D2B47F0E700FCA756 /* PBXTargetDependency */,
+				CA0D3E352B406B2B004823C3 /* PBXTargetDependency */,
 			);
-			name = "GoCart-poc1UITests";
-			productName = "GoCart-poc1UITests";
-			productReference = CAAE712B2B47F0E700FCA756 /* GoCart-poc1UITests.xctest */;
+			name = EcomUITests;
+			productName = EcomUITests;
+			productReference = CA0D3E332B406B2B004823C3 /* EcomUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CAAE71032B47F0E600FCA756 /* Project object */ = {
+		CA0D3E0B2B406B2A004823C3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					CAAE710A2B47F0E600FCA756 = {
+					CA0D3E122B406B2A004823C3 = {
 						CreatedOnToolsVersion = 15.1;
 					};
-					CAAE71202B47F0E700FCA756 = {
+					CA0D3E282B406B2B004823C3 = {
 						CreatedOnToolsVersion = 15.1;
-						TestTargetID = CAAE710A2B47F0E600FCA756;
+						TestTargetID = CA0D3E122B406B2A004823C3;
 					};
-					CAAE712A2B47F0E700FCA756 = {
+					CA0D3E322B406B2B004823C3 = {
 						CreatedOnToolsVersion = 15.1;
-						TestTargetID = CAAE710A2B47F0E600FCA756;
+						TestTargetID = CA0D3E122B406B2A004823C3;
 					};
 				};
 			};
-			buildConfigurationList = CAAE71062B47F0E600FCA756 /* Build configuration list for PBXProject "GoCart-poc1" */;
+			buildConfigurationList = CA0D3E0E2B406B2A004823C3 /* Build configuration list for PBXProject "Ecom" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = CAAE71022B47F0E600FCA756;
-			productRefGroup = CAAE710C2B47F0E600FCA756 /* Products */;
+			mainGroup = CA0D3E0A2B406B2A004823C3;
+			productRefGroup = CA0D3E142B406B2A004823C3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CAAE710A2B47F0E600FCA756 /* GoCart-poc1 */,
-				CAAE71202B47F0E700FCA756 /* GoCart-poc1Tests */,
-				CAAE712A2B47F0E700FCA756 /* GoCart-poc1UITests */,
+				CA0D3E122B406B2A004823C3 /* Ecom */,
+				CA0D3E282B406B2B004823C3 /* EcomTests */,
+				CA0D3E322B406B2B004823C3 /* EcomUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CAAE71092B47F0E600FCA756 /* Resources */ = {
+		CA0D3E112B406B2A004823C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAE711B2B47F0E700FCA756 /* LaunchScreen.storyboard in Resources */,
-				CAAE71182B47F0E700FCA756 /* Assets.xcassets in Resources */,
-				CAAE71162B47F0E600FCA756 /* Main.storyboard in Resources */,
+				CA0D3E232B406B2B004823C3 /* LaunchScreen.storyboard in Resources */,
+				CA0D3E202B406B2B004823C3 /* Assets.xcassets in Resources */,
+				CA0D3E1E2B406B2A004823C3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAE711F2B47F0E700FCA756 /* Resources */ = {
+		CA0D3E272B406B2B004823C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAE71292B47F0E700FCA756 /* Resources */ = {
+		CA0D3E312B406B2B004823C3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +266,65 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CAAE71072B47F0E600FCA756 /* Sources */ = {
+		CA0D3E0F2B406B2A004823C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAE71132B47F0E600FCA756 /* ViewController.swift in Sources */,
-				CAAE710F2B47F0E600FCA756 /* AppDelegate.swift in Sources */,
-				CAAE71112B47F0E600FCA756 /* SceneDelegate.swift in Sources */,
+				CA0D3E172B406B2A004823C3 /* AppDelegate.swift in Sources */,
+				CA0D3E192B406B2A004823C3 /* SceneDelegate.swift in Sources */,
+				CA9662172B411F1900932E7D /* AddProductsViewController.swift in Sources */,
+				CA0D3E4B2B406C20004823C3 /* ProductListViewController.swift in Sources */,
+				CA96621B2B41391C00932E7D /* ProductCell.swift in Sources */,
+				CA0D3E492B406BF5004823C3 /* LoginPageViewController.swift in Sources */,
+				CA0D3E472B406BD0004823C3 /* ProductModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAE711D2B47F0E700FCA756 /* Sources */ = {
+		CA0D3E252B406B2B004823C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAE71262B47F0E700FCA756 /* GoCart_poc1Tests.swift in Sources */,
+				CA0D3E2E2B406B2B004823C3 /* EcomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CAAE71272B47F0E700FCA756 /* Sources */ = {
+		CA0D3E2F2B406B2B004823C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAAE71302B47F0E800FCA756 /* GoCart_poc1UITests.swift in Sources */,
-				CAAE71322B47F0E800FCA756 /* GoCart_poc1UITestsLaunchTests.swift in Sources */,
+				CA0D3E3A2B406B2B004823C3 /* EcomUITestsLaunchTests.swift in Sources */,
+				CA0D3E382B406B2B004823C3 /* EcomUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CAAE71232B47F0E700FCA756 /* PBXTargetDependency */ = {
+		CA0D3E2B2B406B2B004823C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CAAE710A2B47F0E600FCA756 /* GoCart-poc1 */;
-			targetProxy = CAAE71222B47F0E700FCA756 /* PBXContainerItemProxy */;
+			target = CA0D3E122B406B2A004823C3 /* Ecom */;
+			targetProxy = CA0D3E2A2B406B2B004823C3 /* PBXContainerItemProxy */;
 		};
-		CAAE712D2B47F0E700FCA756 /* PBXTargetDependency */ = {
+		CA0D3E352B406B2B004823C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CAAE710A2B47F0E600FCA756 /* GoCart-poc1 */;
-			targetProxy = CAAE712C2B47F0E700FCA756 /* PBXContainerItemProxy */;
+			target = CA0D3E122B406B2A004823C3 /* Ecom */;
+			targetProxy = CA0D3E342B406B2B004823C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CAAE71142B47F0E600FCA756 /* Main.storyboard */ = {
+		CA0D3E1C2B406B2A004823C3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CAAE71152B47F0E600FCA756 /* Base */,
+				CA0D3E1D2B406B2A004823C3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CAAE71192B47F0E700FCA756 /* LaunchScreen.storyboard */ = {
+		CA0D3E212B406B2B004823C3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				CAAE711A2B47F0E700FCA756 /* Base */,
+				CA0D3E222B406B2B004823C3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +332,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		CAAE71332B47F0E800FCA756 /* Debug */ = {
+		CA0D3E3B2B406B2B004823C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -379,7 +395,7 @@
 			};
 			name = Debug;
 		};
-		CAAE71342B47F0E800FCA756 /* Release */ = {
+		CA0D3E3C2B406B2B004823C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -435,7 +451,7 @@
 			};
 			name = Release;
 		};
-		CAAE71362B47F0E800FCA756 /* Debug */ = {
+		CA0D3E3E2B406B2B004823C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +459,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GoCart-poc1/Info.plist";
+				INFOPLIST_FILE = Ecom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -454,7 +470,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ST.GoCart-poc1";
+				PRODUCT_BUNDLE_IDENTIFIER = ST.Ecom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -462,7 +478,7 @@
 			};
 			name = Debug;
 		};
-		CAAE71372B47F0E800FCA756 /* Release */ = {
+		CA0D3E3F2B406B2B004823C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -470,7 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "GoCart-poc1/Info.plist";
+				INFOPLIST_FILE = Ecom/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -481,7 +497,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ST.GoCart-poc1";
+				PRODUCT_BUNDLE_IDENTIFIER = ST.Ecom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -489,7 +505,7 @@
 			};
 			name = Release;
 		};
-		CAAE71392B47F0E800FCA756 /* Debug */ = {
+		CA0D3E412B406B2B004823C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,16 +515,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ST.GoCart-poc1Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = ST.EcomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCart-poc1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoCart-poc1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecom";
 			};
 			name = Debug;
 		};
-		CAAE713A2B47F0E800FCA756 /* Release */ = {
+		CA0D3E422B406B2B004823C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -518,16 +534,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ST.GoCart-poc1Tests";
+				PRODUCT_BUNDLE_IDENTIFIER = ST.EcomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoCart-poc1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GoCart-poc1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ecom.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ecom";
 			};
 			name = Release;
 		};
-		CAAE713C2B47F0E800FCA756 /* Debug */ = {
+		CA0D3E442B406B2B004823C3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -535,16 +551,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ST.GoCart-poc1UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = ST.EcomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GoCart-poc1";
+				TEST_TARGET_NAME = Ecom;
 			};
 			name = Debug;
 		};
-		CAAE713D2B47F0E800FCA756 /* Release */ = {
+		CA0D3E452B406B2B004823C3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -552,55 +568,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ST.GoCart-poc1UITests";
+				PRODUCT_BUNDLE_IDENTIFIER = ST.EcomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "GoCart-poc1";
+				TEST_TARGET_NAME = Ecom;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CAAE71062B47F0E600FCA756 /* Build configuration list for PBXProject "GoCart-poc1" */ = {
+		CA0D3E0E2B406B2A004823C3 /* Build configuration list for PBXProject "Ecom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAAE71332B47F0E800FCA756 /* Debug */,
-				CAAE71342B47F0E800FCA756 /* Release */,
+				CA0D3E3B2B406B2B004823C3 /* Debug */,
+				CA0D3E3C2B406B2B004823C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAAE71352B47F0E800FCA756 /* Build configuration list for PBXNativeTarget "GoCart-poc1" */ = {
+		CA0D3E3D2B406B2B004823C3 /* Build configuration list for PBXNativeTarget "Ecom" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAAE71362B47F0E800FCA756 /* Debug */,
-				CAAE71372B47F0E800FCA756 /* Release */,
+				CA0D3E3E2B406B2B004823C3 /* Debug */,
+				CA0D3E3F2B406B2B004823C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAAE71382B47F0E800FCA756 /* Build configuration list for PBXNativeTarget "GoCart-poc1Tests" */ = {
+		CA0D3E402B406B2B004823C3 /* Build configuration list for PBXNativeTarget "EcomTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAAE71392B47F0E800FCA756 /* Debug */,
-				CAAE713A2B47F0E800FCA756 /* Release */,
+				CA0D3E412B406B2B004823C3 /* Debug */,
+				CA0D3E422B406B2B004823C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CAAE713B2B47F0E800FCA756 /* Build configuration list for PBXNativeTarget "GoCart-poc1UITests" */ = {
+		CA0D3E432B406B2B004823C3 /* Build configuration list for PBXNativeTarget "EcomUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CAAE713C2B47F0E800FCA756 /* Debug */,
-				CAAE713D2B47F0E800FCA756 /* Release */,
+				CA0D3E442B406B2B004823C3 /* Debug */,
+				CA0D3E452B406B2B004823C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CAAE71032B47F0E600FCA756 /* Project object */;
+	rootObject = CA0D3E0B2B406B2A004823C3 /* Project object */;
 }

@@ -1,14 +1,14 @@
 //
-//  GoCart_poc1Tests.swift
-//  GoCart-poc1Tests
+//  EcomTests.swift
+//  EcomTests
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Shemil Tom on 30/12/23.
 //
 
 import XCTest
-@testable import GoCart_poc1
+@testable import Ecom
 
-final class GoCart_poc1Tests: XCTestCase {
+final class EcomTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

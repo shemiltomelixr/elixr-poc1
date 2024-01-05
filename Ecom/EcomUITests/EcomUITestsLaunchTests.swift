@@ -1,13 +1,13 @@
 //
-//  GoCart_poc1UITestsLaunchTests.swift
-//  GoCart-poc1UITests
+//  EcomUITestsLaunchTests.swift
+//  EcomUITests
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Shemil Tom on 30/12/23.
 //
 
 import XCTest
 
-final class GoCart_poc1UITestsLaunchTests: XCTestCase {
+final class EcomUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

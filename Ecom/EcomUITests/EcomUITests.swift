@@ -1,13 +1,13 @@
 //
-//  GoCart_poc1UITests.swift
-//  GoCart-poc1UITests
+//  EcomUITests.swift
+//  EcomUITests
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Shemil Tom on 30/12/23.
 //
 
 import XCTest
 
-final class GoCart_poc1UITests: XCTestCase {
+final class EcomUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
