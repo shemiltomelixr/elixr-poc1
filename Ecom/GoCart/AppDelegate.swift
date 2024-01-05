@@ -1,36 +1,49 @@
 //
 //  AppDelegate.swift
-//  GoCart-poc1
+//  GoCart
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Devasurya on 27/12/23.
 //
 
 import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
-
+    
+    var window:UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         return true
     }
-
+    
     // MARK: UISceneSession Lifecycle
-
+//    func setHome(){
+//        self.window=UIWindow(frame: UIScreen.main.bounds)
+//        let storyBoard=UIStoryboard(name: "Main", bundle: nil)
+//        let initialViewControlller=storyBoard.instantiateViewController(withIdentifier: "11122")
+//        self.window?.rootViewController=initialViewControlller
+//        self.window?.makeKeyAndVisible()
+//    }
+//    func setLogin(){
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        let initialViewController = storyboard.instantiateViewController(withIdentifier: "id1212")
+//        self.window?.rootViewController = initialViewController
+//        self.window?.makeKeyAndVisible()
+//    }
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
     }
-
+    
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
         // Called when the user discards a scene session.
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
-
-
+    
+    
 }
 

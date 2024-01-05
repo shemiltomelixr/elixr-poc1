@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  GoCart-poc1
+//  GoCart
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Devasurya on 27/12/23.
 //
 
 import UIKit
