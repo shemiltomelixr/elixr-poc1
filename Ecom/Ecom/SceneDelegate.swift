@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  GoCart-poc1
+//  Ecom
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Shemil Tom on 30/12/23.
 //
 
 import UIKit

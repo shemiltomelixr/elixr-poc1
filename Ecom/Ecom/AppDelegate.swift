@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  GoCart-poc1
+//  Ecom
 //
-//  Created by Shemil Tom on 05/01/24.
+//  Created by Shemil Tom on 30/12/23.
 //
 
 import UIKit
@@ -13,10 +13,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        //Thread.sleep(forTimeInterval: 0)
         // Override point for customization after application launch.
         return true
     }
-
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
