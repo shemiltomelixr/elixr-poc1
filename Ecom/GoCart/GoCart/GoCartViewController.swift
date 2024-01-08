@@ -15,13 +15,7 @@ class GoCartViewController: UIViewController {
     var product = [Product] ()
     @IBOutlet weak var displaycart: UITableView!
     
-    /// Protocoal to receiceve the data.
-    /// - Parameter result: "result" is type "Product"(Modl)
-    func data(result: Product) {
-        product.append(result)
-        reloadData()
-    }
-    
+   
     /// View life cycle which include navigation item setup.
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,6 +45,13 @@ class GoCartViewController: UIViewController {
 }
 
 /// Extension for AddDataToMainVC protocol
+///  /// Protocoal to receiceve the data.
+/// - Parameter result: "result" is type "Product"(Model)
 extension GoCartViewController: AddDataToMainVC {
+    func data(result: Product) {
+        product.append(result)
+        reloadData()
+    }
     
+
 }

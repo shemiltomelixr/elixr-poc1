@@ -5,7 +5,7 @@
 //  Created by Devasurya on 27/12/23
 import UIKit
 
-/// The app starts with a  login screen where user vaalidation is done.
+/// The app starts with a  login screen where user validation is done.
 class LoginViewController: UIViewController {
     
     /// Referencing Outlet of the UI elements.

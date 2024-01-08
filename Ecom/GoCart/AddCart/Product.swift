@@ -1,5 +1,5 @@
 //
-//  ProductInventory.swift
+//  Product.swift
 //  GoCart
 //
 //  Created by Devasurya on 28/12/23.
