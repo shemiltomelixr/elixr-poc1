@@ -38,7 +38,7 @@ class GoCartViewController: UIViewController {
     /// Function  to  navigate.
     @objc private func didTap() {
         if let addCart = UIStoryboard(name: "Main", bundle: nil)
-            .instantiateViewController(withIdentifier: "CartFunctionalityViewController") as? CartFunctionalityViewController {
+            .instantiateViewController(withIdentifier: "CartFunctionalityViewController") as? AddCartViewController {
             addCart.delegate = self
             navigationController?.pushViewController(addCart, animated: true)
         }

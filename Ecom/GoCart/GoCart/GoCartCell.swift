@@ -7,7 +7,7 @@
 import UIKit
 
 /// This is the file of type UITableviewCell  created inorder to initalize tableview and UI elements used in it.
-class CartDisplayCell: UITableViewCell {
+class GoCartCell: UITableViewCell {
     // UIelements declarations.
     @IBOutlet weak var iconImage: UIImageView!
     @IBOutlet weak var displayView: UIView!

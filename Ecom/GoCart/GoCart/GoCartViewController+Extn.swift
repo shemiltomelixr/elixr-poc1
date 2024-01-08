@@ -36,9 +36,9 @@ extension GoCartViewController: UITableViewDelegate, UITableViewDataSource {
     ///   - indexPath: According to this value the data is added to the tableview specific to each row.
     /// - Returns: UITableViewCell
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cartContents = tableView.dequeueReusableCell(withIdentifier: "CartDisplayCell") as? CartDisplayCell
+        guard let cartContents = tableView.dequeueReusableCell(withIdentifier: "CartDisplayCell") as? GoCartCell
         else{
-            return CartDisplayCell()
+            return GoCartCell()
             
         }
         let finalProduct = product[indexPath.row]

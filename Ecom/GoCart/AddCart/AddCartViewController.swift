@@ -13,7 +13,7 @@ protocol AddDataToMainVC {
 }
 
 /// FunctionalityView is the view responsilbe for the user action to select an image using a pickerview.
-class CartFunctionalityViewController: UIViewController ,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
+class AddCartViewController: UIViewController ,UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     
     /// Referencing Outlet.
     @IBOutlet weak var iconText: UITextField!
